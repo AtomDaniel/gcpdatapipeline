@@ -1,7 +1,7 @@
  /* 'PAGAMENTOS' */
  -- Criada  em: 29/08/2022
  -- Criada por: Daniel Lopes
- -- Objetivo: Dashboard de produção - PA's e pagamentos
+ -- Objetivo: Dashboard de producao - PA's e pagamentos
 
  create or replace view dw.vw_producao_pagamentos AS 
 with raw_pagamentos as (
