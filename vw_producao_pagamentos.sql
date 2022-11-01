@@ -2,6 +2,7 @@
  -- Criada  em: 29/08/2022
  -- Criada por: Daniel Lopes
  -- Objetivo: Dashboard de producao - PA's e pagamentos
+ -- View desenvolvida para o Dashboard de Produção com dados fornecidos pela DNR
 
  create or replace view dw.vw_producao_pagamentos AS 
 with raw_pagamentos as (
