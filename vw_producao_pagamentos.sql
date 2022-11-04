@@ -34,6 +34,7 @@ select
 	else chave end as chave,
 	/*---------------------------------------------------*/	
 	cpf_cnpj,
+	(valor + valor) / valor as teste,
 	valor
 from
 	stg.prd_pagamentos),
