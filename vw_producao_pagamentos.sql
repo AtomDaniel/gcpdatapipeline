@@ -35,6 +35,7 @@ select
 	/*---------------------------------------------------*/	
 	cpf_cnpj,
 	(valor + valor) / valor as teste,
+	((valor + 2) - valor) as teste_b
 	valor
 from
 	stg.prd_pagamentos),
