@@ -4,7 +4,8 @@
  -- Objetivo: Dashboard de producao - PA's e pagamentos
  -- View desenvolvida para o Dashboard de Produção com dados fornecidos pela DNR
 
- create or replace view dw.vw_producao_pagamentos AS 
+ create or replace view dw.vw_producao_pagamentos AS
+ /*COMENTÁRIO ADICIONADO APENAS PARA SER TRACKEADO PELO GITHUB*/
 with raw_pagamentos as (
 select
 	'PAGAMENTOS' as base,
