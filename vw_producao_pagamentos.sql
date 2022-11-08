@@ -5,7 +5,10 @@
  -- View desenvolvida para o Dashboard de Produção com dados fornecidos pela DNR
 
  create or replace view dw.vw_producao_pagamentos AS
- /*COMENTÁRIO ADICIONADO APENAS PARA SER TRACKEADO PELO GITHUB*/
+ /*
+ COMENTÁRIO ADICIONADO APENAS PARA SER TRACKEADO PELO GITHUB,
+ MAIS UMA LINHA ADICIONADA
+ */
 with raw_pagamentos as (
 select
 	'PAGAMENTOS' as base,
