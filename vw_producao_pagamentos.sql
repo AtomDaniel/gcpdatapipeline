@@ -2,12 +2,14 @@
  -- Criada  em: 29/08/2022
  -- Criada por: Daniel Lopes
  -- Objetivo: Dashboard de producao - PA's e pagamentos
- -- View desenvolvida para o Dashboard de Produção com dados fornecidos pela DNR
+ -- View desenvolvida para o Dashboard de ProduÃ§Ã£o com dados fornecidos pela DNR
 
  create or replace view dw.vw_producao_pagamentos AS
  /*
- COMENTÁRIO ADICIONADO APENAS PARA SER TRACKEADO PELO GITHUB,
+ COMENTÃ�RIO ADICIONADO APENAS PARA SER TRACKEADO PELO GITHUB,
  MAIS UMA LINHA ADICIONADA
+ 
+ /*adicionado comentário para curso de git e github*/
  */
 with raw_pagamentos as (
 select
